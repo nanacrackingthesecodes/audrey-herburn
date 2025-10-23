@@ -24,4 +24,43 @@ body {
     margin: 0;
     max-width: 550px;
   }
-  
+  #div2 img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+#div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+    border: 2px solid #e4dcd2;
+  }
+
+  #div2 p{
+    margin: 0;
+    max-width: 550px;
+  }
+  #div3 img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+#div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+    border: 2px solid #e4dcd2;
+  }
+
+  #div3 p{
+    margin: 0;
+    max-width: 550px;
+  }

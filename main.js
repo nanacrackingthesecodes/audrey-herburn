@@ -37,4 +37,18 @@ let divSt = document.getElementById("div1");
 divSt.insertAdjacentHTML("beforeend", `<p>${obj1.Name}</p>`);
 divSt.insertAdjacentHTML("beforeend", `<img src = ${obj1.Img}></img>`);
 divSt.insertAdjacentHTML("beforeend", `<p>${obj1.Description}</p>`);
+let obj2 = new Human('Бриттани Мерфи','"У всех бывали тяжёлые времена. Но если Вы смогли их пережить – это станет лучшим временем в вашей жизни"','/image/brittanymurphy.jpg')
+let divSt = document.getElementById("div2");
+
+
+divSt.insertAdjacentHTML("beforeend", `<p>${obj2.Name}</p>`);
+divSt.insertAdjacentHTML("beforeend", `<img src = ${obj2.Img}></img>`);
+divSt.insertAdjacentHTML("beforeend", `<p>${obj2.Description}</p>`);
+let obj3 = new Human('Натали Портман','"Люди, которые воспринимают все пустяки близко к сердцу, больше всех способны искренне любить"','/image/natalieportman.jpg')
+let divSt = document.getElementById("div3");
+
+
+divSt.insertAdjacentHTML("beforeend", `<p>${obj3.Name}</p>`);
+divSt.insertAdjacentHTML("beforeend", `<img src = ${obj3.Img}></img>`);
+divSt.insertAdjacentHTML("beforeend", `<p>${obj3.Description}</p>`);
 
